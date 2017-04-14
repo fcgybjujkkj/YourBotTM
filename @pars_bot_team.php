@@ -1,9 +1,9 @@
 <?php 
 
-define('BOT_TOKEN','توکن وارد کنید');
+define('BOT_TOKEN','349778566:AAG4emQnDPz7nFJkvmoGhv_fSDYJCcbYpKg');
 define('API_TELEGRAM','https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
-$channel = '@ایدی کانال اینجا قرار دهید';
+$channel"@Your_Bot_Team';
 
 $json = file_get_contents('php://input');
 $telegram = urldecode($json);
